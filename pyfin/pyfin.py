@@ -27,3 +27,9 @@ def cogs(beg_inv, pur_inv, end_inv):
     cost_of_goods_sold = beg_inv + pur_inv - end_inv
 
     return cost_of_goods_sold
+
+
+def break_even(fixed_costs, sales_price, variable_cost_per_unit):
+    break_even = fixed_costs / (sales_price * variable_cost_per_unit)
+
+    return break_even
